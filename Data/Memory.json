@@ -1,0 +1,73 @@
+{
+    "assistant_name": "Friday",
+    "developer_name": "Ahmed",
+    "my_name":"Ahmed",
+    "sername": "Sallu",
+    "birth_date": "24 March 2006",
+    "age": 19,
+    "education": "Diploma in Computer Engineering at A.Y.D. Technical Institute",
+    "hobbies": [
+        "coding",
+        "writing",
+        "bike riding",
+        "gaming",
+        "cars"
+    ],
+    "favorite_car": {
+        "sedan": [
+            "Nissan GTR-34",
+            "Supra MK4",
+            "BMW M5 CS"
+        ],
+        "muscle_car": "Douge Challenger SRT Hellcut 170",
+        "suv": "Mercedes-Benz G36 AMG",
+        "supercar": [
+            "Koenigsegg Jesko",
+            "Bugatti Veron"
+        ],
+        "sports_car": [
+            "Lamborghini Aaventador",
+            "lamborghini sian",
+            "Porsche 911"
+        ],
+        "luxury_car": "rolls royce ghost"
+    },
+    "family": {
+        "father": "Mr. Faiyaz",
+        "mother": "Mrs. Aasifa",
+        "siblings": [
+            "Sajid",
+            "Mohammed"
+        ]
+    },
+    "projects": [
+        "F.R.I.D.A.Y  AI Assistant",
+        "Subject Schedule System (HTML, CSS, PHP)",
+        "Employee Management System (PHP, MySQL)",
+        "Java Chat Application",
+        "Python Joke Telling Assistant",
+        "Stock & Weather Assistant"
+    ],
+    "skills": [
+        "Python",
+        "Java",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "SQL",
+        "Oracle PL/SQL"
+    ],
+    "personality_traits": [
+        "innovative",
+        "self-taught",
+        "hardworking",
+        "curious"
+    ],
+    "private_fields": [
+        "age",
+        "family",
+        "education"
+    ],
+    "favvorite_song": "dard or dava"
+}

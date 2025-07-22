@@ -1,0 +1,5 @@
+I'd be happy to explain a piece of code, but I'll need you to provide the code first. Once you've provided the code, I can start by explaining what the code is intended to do, then I can break it down line by line and explain what each part of the code is doing.
+
+It's important to note that the explanation will depend on the complexity and the language of the code, as well as the context in which it is used.
+
+Please provide me the code you want me to explain.

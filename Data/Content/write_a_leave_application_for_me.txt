@@ -1,0 +1,14 @@
+Sure, here is a basic leave application that you can use:
+
+Subject: Leave Application
+
+Dear [Manager's Name],
+
+I am writing to inform you that I will be taking [number of days] off from work starting [start date] and returning on [end date].
+
+I apologize for any inconvenience this may cause and will do my best to ensure that my responsibilities are covered during my absence. If necessary, I am happy to work with you to make arrangements for someone to cover my duties while I am away.
+
+Thank you for your understanding.
+
+Sincerely,
+[Your Name]

@@ -1,0 +1,20 @@
+Sure, here is an example of a Python program that prints a simple pattern:
+
+```python
+for i in range(5):
+    print('*' * (i+1))
+```
+
+This program will print the following pattern:
+
+```
+*
+**
+***
+****
+*****
+```
+
+The `range(5)` function generates a sequence of numbers from 0 to 4, and the `for` loop iterates over this sequence. For each iteration, the program prints a string of asterisks that is `i+1` characters long.
+
+Let me know if you have any questions or if you would like to see a different pattern!

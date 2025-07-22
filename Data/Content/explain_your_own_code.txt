@@ -1,0 +1,41 @@
+I'm happy to import and explain my own code! I'll choose a simple Python script I wrote recently for generating Fibonacci numbers.
+
+```python
+def fibonacci(n: int) -> int:
+    """
+    Calculate the nth Fibonacci number.
+
+    :param n: The index of the Fibonacci number to calculate.
+    :return: The nth Fibonacci number.
+    """
+    if n <= 0:
+        raise ValueError("Index must be positive.")
+    if n == 1:
+        return 0
+    if n == 2:
+        return 1
+
+    a, b = 0, 1
+    for _ in range(2, n):
+        a, b = b, a + b
+
+    return b
+
+if __name__ == "__main__":
+    num = int(input("Enter the index of the Fibonacci number: "))
+    print(f"The {num}th Fibonacci number is: {fibonacci(num)}")
+```
+
+Here's a breakdown of the code:
+
+1. `def fibonacci(n: int) -> int:` - This is the function definition for calculating the nth Fibonacci number. It takes an integer `n` as a parameter and returns an integer.
+2. `if n <= 0:` - This checks if the input `n` is less than or equal to 0. If so, it raises a `ValueError` since the index must be positive.
+3. `if n == 1:` - If the input `n` is 1, it returns 0, which is the first Fibonacci number.
+4. `if n == 2:` - If the input `n` is 2, it returns 1, which is the second Fibonacci number.
+5. `a, b = 0, 1` - This initializes two variables, `a` and `b`, to 0 and 1, respectively. These will be used to calculate the Fibonacci sequence.
+6. `for _ in range(2, n):` - This loop runs from 2 up to, but not including, `n`.
+7. `a, b = b, a + b` - This line updates the values of `a` and `b` in each iteration by swapping them and adding their previous values.
+8. `return b` - After the loop finishes, `b` holds the nth Fibonacci number, so it is returned.
+9. `if __name__ == "__main__":` - This block checks if the script is being run directly or imported as a module.
+10. `num = int(input("Enter the index of the Fibonacci number: "))` - If run directly, it prompts the user to enter the index of the Fibonacci number.
+11. `print(f"The {num}th Fibonacci number is: {fibonacci(num)}")` - It then prints the nth Fibonacci number.
